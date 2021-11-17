@@ -1,6 +1,5 @@
 /*global AlgoSigner*/
 import React, {useRef} from "react";
-import HealthCheck from "./Healthcheck";
 import ConnectAlgoSigner from "./ConnectAlgoSigner";
 import SignPayTransaction from "./SignPayTransaction";
 import algoSignerlogo from '../../assets/images/algosigner.jpeg'
@@ -18,10 +17,7 @@ const AlgoSigner =  ()  =>{
       
         <AlgoSignerMain>
             <img src= {algoSignerlogo} alt ="AlgoSigner Logo" height= "70px"/> 
-            <ConnectAlgoSigner userAccount = {userAccount}/>
-            
-           {/* <HealthCheck algodClient = {algodClient}/> */}
-           
+            <ConnectAlgoSigner userAccount = {userAccount}/>           
             <SignPayTransaction userAccount = {userAccount} amount = {amount} receipient = {receipient} />
             <CreateAsset userAccount = {userAccount} />
             <AssetOptin userAccount = {userAccount} />

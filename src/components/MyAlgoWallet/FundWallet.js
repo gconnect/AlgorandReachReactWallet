@@ -1,12 +1,10 @@
-import React, {useRef, useState} from "react";
+import React, {useState} from "react";
 import { loadStdlib } from '@reach-sh/stdlib'
 import { FormStyle } from "../Form.style";
 import {  TransactionButton } from "../Button.styles";
-import loading from '../../assets/images/loading.gif'
 const reach = loadStdlib("ALGO")
 
 const FundAccount = ({account, getBalance}) =>{
-    const fundAmount = useRef()
     const [isLoading, setLoading] = useState(false)
     const [amount, setAmount] = useState("")
 
