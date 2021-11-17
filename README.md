@@ -37,7 +37,7 @@ Connecting to My Algo Wallet is part of the inbuilt integration in reach which p
 # Demo
 
 <img width="1440" alt="Screenshot 2021-11-16 at 03 28 28" src="https://user-images.githubusercontent.com/23031920/142119087-5fc396ed-594a-4fc5-9b43-618eca3aef5a.png">
-
+Here is a [link](https://reachwallet.netlify.app/) to the deployed Application on netlify.
 
 # License
 Distributed under the MIT License. See for more information. [LICENSE](https://github.com/gconnect/AlgorandReachReactWallet/blob/master/LICENSE)
