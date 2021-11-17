@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Build a DApp using Reach and React to Connect to My Algo Wallet and AlgoSigner
+![cover](https://user-images.githubusercontent.com/23031920/142118845-f9b4ac55-7287-4379-b20f-f7c7b4cfb47d.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This tutorial is a simple step by step guide on how to use the Reach frontend to connect to an Algorand wallet and sign transactions using MyAlgoWallet and Algosigner with React.
 
-## Available Scripts
+Connecting to a wallet is one important requirements most DApp developers will have to integrate in their application when creating a DApp on the Algorand Blockchain.
+This tutorial will guide you in connecting your DApp to an Algorand wallet using either My Algo Wallet or AlgoSigner. The tutorial and code solution is divided into two sections. My Algo Wallet Connect with Reach and Algosigner independent of Reach.
 
-In the project directory, you can run:
+Connecting to My Algo Wallet is part of the inbuilt integration in reach which provides a fallback to connect to the wallet. AlgoSigner is not integrated in reach and so integrating AlgoSigner in your add does not require Reach.
 
-### `yarn start`
+## My Algo Wallet Connect With Reach
+- Using Reach to connect to the My Algo Wallet
+- Checking of account information, like address and account balance
+- Using Reach Faceut to fund account
+- Transferring of fund using Reach
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## AlgoSigner
+- Connecting to the AlgoSigner web extension
+- Transfering fund
+- Creating Asset
+- Optin to an Asset
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Setup Instructions
+- clone the repository
+- open a terminal cd to the reach-react folder
+- From there run the command npm install
+- once that has completed  cd src
+- Run the curl https://raw.githubusercontent.com/reach-sh/reach-lang/master/reach -o reach ; chmod +x reach command to download reach into the src folder
+- Run the ./reach version command to ensure it installed
+- Run the REACH_CONNECTOR_MODE=ALGO ./reach devnet command to start the testnet
+- Start up a new terminal and navigate to the reach-react folder
+- Now run the npm start command to run the applications frontend
+- Navigate to the localhost link given by the above command to view the application
 
-### `yarn build`
+# Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="1440" alt="Screenshot 2021-11-16 at 03 28 28" src="https://user-images.githubusercontent.com/23031920/142119087-5fc396ed-594a-4fc5-9b43-618eca3aef5a.png">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# License
+Distributed under the MIT License. See for more information. [LICENSE](https://github.com/gconnect/AlgorandReachReactWallet/blob/master/LICENSE)
 
-### `yarn eject`
+# Blog and Video Tutorial
+For more details you can checkout the blog post [here](https://developer.algorand.org/me/posts/tutorials/connecting-funding-transferring-fund-on-the-algorand-blockchain-using-reach-and-react) . And here is the link to the youtube demo
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Disclaimer
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is not audited and should not be used in a production environment.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
