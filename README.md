@@ -40,7 +40,7 @@ Connecting to My Algo Wallet is part of the inbuilt integration in reach which p
 
 
 # License
-Distributed under the MIT License. See for more information. LICENSE
+Distributed under the MIT License. See for more information. [LICENSE](https://github.com/gconnect/AlgorandReachReactWallet/blob/master/LICENSE)
 
 # Blog and Video Tutorial
 For more details you can checkout the blog post [here](https://developer.algorand.org/me/posts/tutorials/connecting-funding-transferring-fund-on-the-algorand-blockchain-using-reach-and-react) . And here is the link to the youtube demo
