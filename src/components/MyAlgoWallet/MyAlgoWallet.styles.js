@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import MyAlgoWallet from "./MyAlgoWallet";
 
 export const MyAlgoWalletMain = styled.div`
     margin-top : 20px;
