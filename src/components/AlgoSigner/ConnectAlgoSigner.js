@@ -22,7 +22,7 @@ const ConnectAlgoSigner = ({userAccount}) => {
       return(
         <div>
           <Button backgroundColor='blue' onClick={connectAlgoSigner}>
-          Connect Algo Signer
+          Connect AlgoSigner
           </Button>
         </div>
         
