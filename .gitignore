@@ -10,8 +10,8 @@
 
 # production
 /build
-.netlify
-.vscode
+/.netlify
+/.vscode
 # misc
 .DS_Store
 .env.local
