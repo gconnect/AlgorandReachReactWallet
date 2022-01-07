@@ -1,4 +1,4 @@
-# Build a DApp using Reach and React to Connect to My Algo Wallet and AlgoSigner
+# Build an Algorand Web Wallet Interface Using Reach and React to Connect to My Algo Wallet and AlgoSigner
 ![cover](https://user-images.githubusercontent.com/23031920/142118845-f9b4ac55-7287-4379-b20f-f7c7b4cfb47d.png)
 
 This tutorial is a simple step by step guide on how to use the Reach frontend to connect to an Algorand wallet and sign transactions using MyAlgoWallet and Algosigner with React.
