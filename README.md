@@ -44,7 +44,7 @@ Here is a [demo link](https://reachwallet.netlify.app) to the deployed Applicati
 Distributed under the MIT License. See for more information. [LICENSE](https://github.com/gconnect/AlgorandReachReactWallet/blob/master/LICENSE)
 
 # Blog and Video Tutorial
-For more details you can checkout the blog post [here](https://developer.algorand.org/me/posts/tutorials/connecting-funding-transferring-fund-on-the-algorand-blockchain-using-reach-and-react) . And here is the link to the youtube demo
+For more details you can checkout the blog post [here](https://developer.algorand.org/tutorials/web-wallet-algorand-reach-and-react/?from_query=reach%20react) . And here is the link to the [youtube demo](https://www.youtube.com/watch?v=7fIDHOjlUvw)
 
 # Disclaimer
 
